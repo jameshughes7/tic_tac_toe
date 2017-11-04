@@ -17,5 +17,16 @@ describe Game do
       game.move(0,0,'X')
       expect(game.board.grid[0][0]).to eq('X')
     end
+
+    it 'should not allow a turn on a space already taken' do
+      game.move(0,0,'X')
+      game.move(0,0,'X')
+      expect(game.space_taken?(0,0,'X')).to eq(true)
+      expect(game.move(0,0,'X')).to eq("You cannot move there.")
+    end
+
+    it 'should not allow a turn on a space off the board' do
+      expect(game.move(5,5,'X')).to eq("You cannot move there.")
+    end
   end
 end
