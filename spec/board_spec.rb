@@ -1,7 +1,7 @@
 require 'board'
 
 describe Board do
-  subject(:board) {Board.new}
+  subject(:board) { Board.new }
 
   context 'initialize' do
     it'should create new board class' do
@@ -10,10 +10,10 @@ describe Board do
   end
 
   context '#print_board' do
-      it 'prints the board grid' do
-        expect { board.print_board }.to output("[nil, nil, nil]\n" +
-                                              "[nil, nil, nil]\n" +
-                                              "[nil, nil, nil]\n").to_stdout
-      end
+    it 'prints the board grid' do
+      expect { board.print_board }.to output("[nil, nil, nil]\n" \
+                                            "[nil, nil, nil]\n" \
+                                            "[nil, nil, nil]\n").to_stdout
     end
+  end
 end

@@ -24,22 +24,31 @@
       ],
       "/Users/jameshughes/MakersAcademy/Projects/Week9/tic_tac_toe/lib/board.rb": [
         1,
-        null,
         1,
         null,
         1,
-        8,
+        24,
         null,
         null,
         1,
         4,
-        null,
         null,
         null
       ],
       "/Users/jameshughes/MakersAcademy/Projects/Week9/tic_tac_toe/spec/game_spec.rb": [
         1,
         null,
+        1,
+        3,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
         1,
         1,
         1,
@@ -54,9 +63,18 @@
         null,
         1,
         null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
         null
       ]
     },
-    "timestamp": 1509802032
+    "timestamp": 1509832869
   }
 }
